@@ -1196,7 +1196,7 @@ main() {
   if [[ "${useUpdateVars}" == false ]]; then
       displayFinalMessage "${pw}"
   fi
-
+  echo 'setenv.add-environment = ( "VIRTUAL_HOST" => "ad.wall" )' > /env/lighttpd/external.conf
   echo "::: Restarting services..."
   # Start services
   start_service dnsmasq
