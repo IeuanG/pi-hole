@@ -23,9 +23,9 @@ instalLogLoc=/etc/pihole/install.log
 setupVars=/etc/pihole/setupVars.conf
 lighttpdConfig=/etc/lighttpd/lighttpd.conf
 
-webInterfaceGitUrl="https://github.com/pi-hole/AdminLTE.git"
+webInterfaceGitUrl="https://github.com/IeuanG/AdminLTE.git"
 webInterfaceDir="/var/www/html/admin"
-piholeGitUrl="https://github.com/pi-hole/pi-hole.git"
+piholeGitUrl="https://github.com/IeuanG/pi-hole.git"
 PI_HOLE_LOCAL_REPO="/etc/.pihole"
 PI_HOLE_FILES=(chronometer list piholeDebug piholeLogFlush setupLCD update version gravity uninstall webpage)
 PI_HOLE_INSTALL_DIR="/opt/pihole"
