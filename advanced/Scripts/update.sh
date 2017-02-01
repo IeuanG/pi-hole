@@ -14,9 +14,9 @@
 
 # Variables
 
-readonly ADMIN_INTERFACE_GIT_URL="https://github.com/pi-hole/AdminLTE.git"
+readonly ADMIN_INTERFACE_GIT_URL="https://github.com/IeuanG/AdminLTE.git"
 readonly ADMIN_INTERFACE_DIR="/var/www/html/admin"
-readonly PI_HOLE_GIT_URL="https://github.com/pi-hole/pi-hole.git"
+readonly PI_HOLE_GIT_URL="https://github.com/IeuanG/pi-hole.git"
 readonly PI_HOLE_FILES_DIR="/etc/.pihole"
 
 is_repo() {
@@ -139,7 +139,7 @@ main() {
   #This is unlikely
   if ! is_repo "${PI_HOLE_FILES_DIR}" || ! is_repo "${ADMIN_INTERFACE_DIR}" ; then
     echo "::: Critical Error: One or more Pi-Hole repos are missing from system!"
-    echo "::: Please re-run install script from https://github.com/pi-hole/pi-hole"
+    echo "::: Please re-run install script from https://github.com/IeuanG/pi-hole"
     exit 1;
   fi
 
